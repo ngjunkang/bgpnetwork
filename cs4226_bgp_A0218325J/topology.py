@@ -38,7 +38,7 @@ class Topology(Topo):
                      intfName1="r110-eth1", params1={"ip": "192.168.1.0/31"},
                      intfName2="r120-eth1", params2={"ip": "192.168.1.1/31"})
         self.addLink('r110', 'r210',
-                     intfName1="r130-eth2", params1={"ip": "172.17.1.0/31"},
+                     intfName1="r110-eth2", params1={"ip": "172.17.1.0/31"},
                      intfName2="r210-eth1", params2={"ip": "172.17.1.1/31"})
         self.addLink('r130', 'r310',
                      intfName1="r130-eth2", params1={"ip": "172.17.2.0/31"},
